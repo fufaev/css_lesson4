@@ -14,16 +14,31 @@ p::first-letter {
     font-weight: bold;
     font-size: 38px;
     font-family: Times New Roman;
+    line-height: 24px;
+}
+p::first-line {
+    line-height: 22px;
 }
 #content {
-    width: 520px;
-    height: 300px;
+    width: 570px;
+    height: 293px;
     float: left;
     background-color: #FFF;
 }
+#content h3 {
+    padding-left: 9px;
+    margin-top: 11px;
+    letter-spacing: 0.7px;
+}
+#content p {
+    padding-inline: 8px;
+    padding-top: 8px;
+    line-height: 13px;
+    word-spacing: 1.5px;
+}
 #nav {
-    width: 200px;
-    height: 300px;
+    width: 150px;
+    height: 293px;
     float: left;
     background-color: #e7e7e7;
 }
@@ -31,11 +46,17 @@ p::first-letter {
     height: 50px;
     background-color: #b0b0b0;
 }
+h1 {
+    padding-top: 11px;
+    padding-left: 40px;
+}
 ul li {
     padding-top: 10px;
     padding-bottom: 10px;
     list-style: none;
     font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3px;
 }
 a:link {
     text-decoration: none;
