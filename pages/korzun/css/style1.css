@@ -1,0 +1,9 @@
+/* Практическая работа №5. Задание 1 — «История Минска» */
+
+/* Серый фон страницы, шрифт Verdana 11px */
+body {
+    background-color: #cccccc;
+    color: #000000;
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+}
