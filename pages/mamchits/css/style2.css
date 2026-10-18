@@ -21,7 +21,7 @@ p::first-line {
 }
 #content {
     width: 570px;
-    height: 293px;
+    height: 295px;
     float: left;
     background-color: #FFF;
 }
@@ -31,14 +31,14 @@ p::first-line {
     letter-spacing: 0.7px;
 }
 #content p {
-    padding-inline: 8px;
-    padding-top: 8px;
+    padding-inline: 9px;
+    padding-top: 10px;
     line-height: 13px;
     word-spacing: 1.5px;
 }
 #nav {
     width: 150px;
-    height: 293px;
+    height: 295px;
     float: left;
     background-color: #e7e7e7;
 }
@@ -58,8 +58,8 @@ ul {
 a {
     display: block;
     width: 200px;
-    height: 40px;
-    line-height: 40px;
+    height: 39px;
+    line-height: 39px;
     color: #000000;
     text-decoration: none;
     font-size: 12px;
