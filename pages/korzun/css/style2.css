@@ -47,3 +47,8 @@ p:first-letter {
     font-size: 38px;
     font-family: "Times New Roman", serif;
 }
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
