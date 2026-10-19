@@ -36,3 +36,14 @@ li {
     display: inline;
     float: left;
 }
+a {
+    padding: 0 10px 0 10px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    display: block;
+    background-color: #5d89bc;
+    background-image: url(../../../images/nb.gif);
+    background-repeat: repeat-x;
+}
