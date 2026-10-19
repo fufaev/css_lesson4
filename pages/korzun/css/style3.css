@@ -53,3 +53,9 @@ a:visited {
 a:hover {
     color: #333;
 }
+#content {
+    width: 704px;
+    height: 590px;
+    float: left;
+    background-color: #FFF;
+}
