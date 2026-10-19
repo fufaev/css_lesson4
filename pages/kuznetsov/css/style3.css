@@ -1,0 +1,80 @@
+h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #cccccc;
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+    margin: 20px 0;
+}
+
+
+#container {
+    width: 704px;
+    background-color: #ffffff;
+    margin: auto;
+    text-align: justify;
+    overflow: hidden; 
+}
+
+#header {
+    height: 50px;
+    background-color: #b0b0b0;
+}
+
+#header h1 {
+    font-size: 22px;
+    padding: 10px 0 0 20px;
+}
+
+
+ul {
+    width: 720px;
+    list-style: none;
+    text-transform: uppercase;
+    float: left;
+    background-image: url(../../../images/nb.gif);
+    background-repeat: repeat-x;
+    background-color: transparent;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+
+a {
+    padding: 0 10px 0 10px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #ffffff;
+    float: left;
+    display: block;
+    background-image: url(../../../images/nb.gif);
+    background-repeat: repeat-x;
+    background-color: transparent;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #333333;
+}
+
+
+#content {
+    width: 704px;
+    height: 550px; 
+    float: left;
+    background-color: #ffffff;
+}
+
+#content h2 {
+    font-size: 14px;
+    padding: 15px 20px 10px 20px;
+}
