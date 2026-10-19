@@ -52,3 +52,17 @@ ul {
     padding: 0;
     list-style: none;
 }
+a {
+    display: block;
+    width: 200px;
+    height: 39px;
+    line-height: 39px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #94b8e9;
+    background-image: url(../../../images/rol.gif);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    text-indent: 40px;
+}
