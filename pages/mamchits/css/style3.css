@@ -21,7 +21,7 @@ p::first-line {
 }
 #content {
     width: 720px;
-    height: 590px;
+    height: 612px;
     float: left;
     background-color: #FFF;
 }
@@ -38,7 +38,7 @@ p::first-line {
 }
 
 #header {
-    height: 50px;
+    height: 52px;
     background-color: #b0b0b0;
 }
 h1 {
@@ -71,4 +71,13 @@ a:hover {
 }
 a:visited {
     color: #333;
+}
+#header h1 {
+    font-size: 27px;
+    letter-spacing: 0.6px;
+    word-spacing: 3px;
+}
+#content h3 {
+    font-size: 15px;
+    letter-spacing: 2px;
 }
