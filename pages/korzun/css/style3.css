@@ -47,3 +47,6 @@ a {
     background-image: url(../../../images/nb.gif);
     background-repeat: repeat-x;
 }
+a:visited {
+    color: #333;
+}
