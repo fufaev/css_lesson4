@@ -11,3 +11,12 @@ body {
     margin: auto;
     overflow: hidden; /* блок охватывает плавающие колонки */
 }
+#header {
+    height: 50px;
+    padding-left: 40px; /* отступ заголовка задан через padding, чтобы не было схлопывания margin */
+    background-color: #b0b0b0;
+}
+#header h1 {
+    margin: 0;
+    line-height: 50px;
+}
