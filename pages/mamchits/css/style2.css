@@ -17,7 +17,9 @@ p::first-letter {
     line-height: 24px;
 }
 p::first-line {
-    line-height: 22px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    word-spacing: 0px;
 }
 #content {
     width: 570px;
@@ -32,9 +34,10 @@ p::first-line {
 }
 #content p {
     padding-inline: 9px;
-    padding-top: 10px;
-    line-height: 13px;
-    word-spacing: 1.5px;
+    padding-top: 4px;
+    line-height: 14px;
+    letter-spacing: 1.3px;
+    word-spacing: 0.5px;
 }
 #nav {
     width: 150px;
@@ -65,10 +68,20 @@ a {
     font-size: 12px;
     background: url(../../../images/rol.gif) no-repeat left bottom;
     text-indent: 40px;
+    letter-spacing: 1.2px;
 }
 a:hover {   
     background-position: right calc(8*10%) bottom;
     color: white;
     font-weight: bold;
     transition: background-position 0.3s ease;
+}
+#header h1 {
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+#content h3 {
+    font-size: 15px;
+    letter-spacing: 1.4px;
 }
