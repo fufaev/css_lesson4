@@ -53,5 +53,11 @@ p:first-letter {
     font-size: 38px;
     font-family: "Times New Roman", serif;
 }
+ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    font-size: 12px;
+}
 
 
