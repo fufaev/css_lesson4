@@ -47,5 +47,11 @@ body {
 #content p {
     margin: 0;
 }
+p:first-letter {
+    color: blue;
+    font-weight: bold;
+    font-size: 38px;
+    font-family: "Times New Roman", serif;
+}
 
 
