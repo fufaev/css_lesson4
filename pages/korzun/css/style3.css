@@ -59,3 +59,10 @@ a:hover {
     float: left;
     background-color: #FFF;
 }
+#content h2 {
+    font-size: 1.17em;
+    margin: 12px 0 10px 10px;
+}
+#content img {
+    display: block;
+}
