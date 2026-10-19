@@ -4,3 +4,10 @@ body {
     font-family: Verdana, sans-serif;
     font-size: 11px;
 }
+#container {
+    width: 720px;
+    text-align: justify;
+    background-color: #fff;
+    margin: auto;
+    overflow: hidden; /* блок охватывает плавающие колонки */
+}
