@@ -11,3 +11,13 @@ body {
     margin: auto;
     overflow: hidden;
 }
+#header {
+    height: 50px;
+    padding-left: 40px;
+    background-color: #b0b0b0;
+}
+
+#header h1 {
+    margin: 0;
+    line-height: 50px;
+}
