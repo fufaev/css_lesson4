@@ -6,7 +6,7 @@
 }
 body {
     background-color: #cccccc;
-    font-family: "Verdana, sans-serif";
+    font-family: "Verdana", sans-serif;
     font-size: 11px;
 }   
 p::first-letter {
@@ -14,11 +14,12 @@ p::first-letter {
     font-weight: bold;
     font-size: 38px;
     font-family: "Times New Roman";
-    line-height: 15px;
+    line-height: 26px;
+    padding-left: 1px;
 }
 p::first-line {
-    line-height: 20px;
-    letter-spacing: 1px;
+    line-height: 23px;
+    letter-spacing: 0.1px;
 }
 #content {
     width: 570px;
@@ -34,9 +35,9 @@ p::first-line {
 #content p {
     padding-inline: 8px;
     padding-top: 8px;
-    line-height: 14px;
-    word-spacing: 1.5px;
-    letter-spacing: 1.3px;
+    line-height: 13px;
+    word-spacing: 0.4px;
+    letter-spacing: 0.3px;
 }
 #nav {
     width: 150px;
@@ -58,7 +59,6 @@ ul li {
     list-style: none;
     font-size: 12px;
     line-height: 13px;
-    letter-spacing: 0.3px;
 }
 a:link {
     text-decoration: none;
@@ -79,14 +79,14 @@ a:active {
     text-decoration: underline;
 }
 #header h1 {
-    font-size: 25px;
-    letter-spacing: 1px;
-    word-spacing: 4px;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    word-spacing: -1px;
 }
 #nav a {
-    letter-spacing: 1.8px;
+    letter-spacing: 0.4px;
 }
 #content h3 {
-    font-size: 15px;
-    letter-spacing: 1.3px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
 }
