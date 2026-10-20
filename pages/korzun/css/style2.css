@@ -1,0 +1,84 @@
+body {
+    background-color: #cccccc;
+    color: #000000;
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+}
+#container {
+    width: 720px;
+    text-align: justify;
+    background-color: #fff;
+    margin: auto;
+    overflow: hidden; /* блок охватывает плавающие колонки */
+}
+#header {
+    height: 50px;
+    padding-left: 40px; /* отступ заголовка задан через padding, чтобы не было схлопывания margin */
+    background-color: #b0b0b0;
+}
+#header h1 {
+    margin: 0;
+    line-height: 50px;
+}
+#nav {
+    width: 200px;
+    height: 300px;
+    float: left;
+    background-color: #e7e7e7;
+}
+#content {
+    box-sizing: border-box; /* внутренние отступы входят в ширину 520px */
+    width: 520px;
+    height: 300px;
+    float: left;
+    padding: 0 12px 0 8px;
+    background-color: #FFF;
+}
+#content h2 {
+    font-size: 1.17em;
+    margin: 15px 0 12px;
+}
+#content p {
+    margin: 0;
+}
+p:first-letter {
+    color: blue;
+    font-weight: bold;
+    font-size: 38px;
+    font-family: "Times New Roman", serif;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#nav a {
+    display: block;
+    width: 200px;
+    height: 39px;
+    line-height: 39px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #94b8e9;
+    background-image: url(../../../images/rol.gif);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    text-indent: 40px;
+}
+#nav a:link {
+    text-decoration: none;
+}
+#nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+#nav a:hover {
+    background-position: right calc(6 * 10%) bottom;
+    color: white;
+    font-weight: bold;
+}
+#nav a:active {
+    color: black;
+    font-weight: bold;
+}
