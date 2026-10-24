@@ -1,0 +1,122 @@
+#container {
+    width: 720px;
+    text-align: justify;
+    background-color: #fff;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+body {
+    margin: 0;
+    padding-top: 15px;
+    background-color: #cccccc;
+    font-family: "Verdana", sans-serif;
+    font-size: 11px;
+}   
+p::first-letter {
+    color: blue;
+    font-weight: bold;
+    font-size: 38px;
+    font-family: "Verdana", sans-serif;
+    line-height: 24px;
+}
+p::first-line {
+    line-height: 22px;
+}
+#content {
+    width: 720px;
+    height: 614px;
+    float: left;
+    background-color: #FFF;
+    overflow: hidden;
+}
+#content h3 {
+    padding-left: 9px;
+    margin-top: 11px;
+    letter-spacing: 0.7px;
+}
+#content p {
+    padding-inline: 9px;
+    padding-top: 10px;
+    line-height: 13px;
+    word-spacing: 1.5px;
+}
+
+#header {
+    height: 52px;
+    background-color: #b0b0b0;
+}
+#container h1 {
+    margin: 0;
+    padding-top: 11px;
+    padding-left: 40px;
+}
+#nav ul {
+    margin: 0;
+    padding: 0;
+    width: 720px;
+    list-style: none;
+    text-transform: uppercase;
+}
+#nav li {
+    display: inline;
+    float: left;
+}
+#nav a {
+    padding: 0 10px 0 10px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    display: block;
+    background-image: url(../../../images/nb.gif);
+    background-repeat: repeat-x;
+    letter-spacing: 0.4px;
+}
+#nav a:hover {
+    color: #333;
+}
+#nav a:visited {
+    color: #333;
+}
+#header h1 {
+    font-size: 22px;
+    letter-spacing: 0.1px;
+    word-spacing: 1px;
+    padding-left: 43px;
+}
+#content h3 {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+#nav {
+    width: 720px;
+    height: 25px;
+}
+#content .img {
+    position: relative;
+    margin: 0;
+}
+#content .img_first {
+    position: relative;
+    z-index: 10;
+    width: 417px;
+    left: 10px;
+    top: 7px;
+    height: auto;
+}
+#content .img_second {
+    position: relative;
+    z-index: 100;
+    width: 416px;
+    height: auto;
+    top: -101px;
+    left: 294px;
+}
+
+#content .img_first img, 
+.img_second img {
+    width: 100%;
+    height: auto;
+}
