@@ -3,8 +3,12 @@
     text-align: justify;
     background-color: #fff;
     margin: auto;
+    overflow: hidden;
+    margin-bottom: 60px;
 }
 body {
+    margin: 0;
+    padding-top: 15px;
     background-color: #cccccc;
     font-family: "Verdana", sans-serif;
     font-size: 11px;
@@ -21,10 +25,10 @@ p::first-line {
 }
 #content {
     width: 720px;
-    height: 612px;
+    height: 614px;
     float: left;
     background-color: #FFF;
-    margin-bottom: 60px;
+    overflow: hidden;
 }
 #content h3 {
     padding-left: 9px;
@@ -42,22 +46,23 @@ p::first-line {
     height: 52px;
     background-color: #b0b0b0;
 }
-h1 {
+#container h1 {
+    margin: 0;
     padding-top: 11px;
     padding-left: 40px;
 }
-ul {
+#nav ul {
     margin: 0;
     padding: 0;
     width: 720px;
     list-style: none;
     text-transform: uppercase;
 }
-li {
+#nav li {
     display: inline;
     float: left;
 }
-a {
+#nav a {
     padding: 0 10px 0 10px;
     line-height: 25px;
     text-decoration: none;
@@ -68,10 +73,10 @@ a {
     background-repeat: repeat-x;
     letter-spacing: 0.4px;
 }
-a:hover {
+#nav a:hover {
     color: #333;
 }
-a:visited {
+#nav a:visited {
     color: #333;
 }
 #header h1 {
@@ -84,4 +89,34 @@ a:visited {
     font-size: 14px;
     letter-spacing: 0.5px;
     word-spacing: 1px;
+}
+#nav {
+    width: 720px;
+    height: 25px;
+}
+#content .img {
+    position: relative;
+    margin: 0;
+}
+#content .img_first {
+    position: relative;
+    z-index: 10;
+    width: 417px;
+    left: 10px;
+    top: 7px;
+    height: auto;
+}
+#content .img_second {
+    position: relative;
+    z-index: 100;
+    width: 416px;
+    height: auto;
+    top: -101px;
+    left: 294px;
+}
+
+#content .img_first img, 
+.img_second img {
+    width: 100%;
+    height: auto;
 }
